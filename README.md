@@ -18,26 +18,26 @@ The dashboard tracks five primary metrics to gauge institutional health:
 - Performance Index (59.0): A normalized score representing the overall academic health of the filtered schools.
 
 <h2> 📈 Visualizations & Interpretation </h2>
-1. <strong> Passing Rate by Class Level (Bar Chart) </strong> 
-This chart displays the academic success rate across different educational stages, from Primary 1 to Senior Secondary 3 (SS3).
 
-Insight: There is a gradual decline in passing rates as students progress to higher levels.
+1.  <strong> Passing Rate by Class Level (Bar Chart):  </strong> This chart displays the academic success rate across different educational stages, from Primary 1 to Senior Secondary 3 (SS3).
 
-Top Performer: Primary 4 (93.67%).
+- Insight: There is a gradual decline in passing rates as students progress to higher levels.
+ 
+-  Top Performer: Primary 4 (93.67%).
+ 
+-  Lowest Performer: JSS1 (90.54%).
 
-Lowest Performer: JSS1 (90.54%).
-
-Trend: The consistency across all levels (all above 90%) suggests a stable internal assessment system, though this contrasts sharply with the 31.9% Graduation Rate KPI, indicating a possible "bottleneck" at the final exit exams.
+- Trend: The consistency across all levels (all above 90%) suggests a stable internal assessment system, though this contrasts sharply with the 31.9% Graduation Rate KPI, indicating a possible "bottleneck" at the final exit exams.
 
 2. <strong> Parent Satisfaction by Subject (Area Chart) </strong
    
-A sentiment analysis metric showing how parents perceive the quality of instruction in specific subjects on a scale of 0 to 7.
+- A sentiment analysis metric showing how parents perceive the quality of instruction in specific subjects on a scale of 0 to 7.
 
-High Satisfaction: Basic Science (6.6) and Social Studies (6.59) are the most well-regarded.
+- High Satisfaction: Basic Science (6.6) and Social Studies (6.59) are the most well-regarded.
 
-Lower Satisfaction: Government (6.24) and Math (6.29).
+- Lower Satisfaction: Government (6.24) and Math (6.29).
 
-Interpretation: Core STEM subjects (Math) and civic subjects (Government) may require better parent-teacher communication or instructional improvements to meet parental expectations.
+- Interpretation: Core STEM subjects (Math) and civic subjects (Government) may require better parent-teacher communication or instructional improvements to meet parental expectations.
 
 <h2> 🛠️ Tech Stack </h2> 
 - Data Visualization: Power BI (indicated by the slicer and tile formatting).
@@ -49,17 +49,18 @@ Interpretation: Core STEM subjects (Math) and civic subjects (Government) may re
 <h2> 🔍 Filter Capabilities </h2>
 The dashboard is highly interactive, allowing users to drill down by:
 
-Demographics: Gender.
+- Demographics: Gender.
 
-Geography: Region, State, and Location (Urban/Rural).
+= Geography: Region, State, and Location (Urban/Rural).
 
-Institutional Details: School Name, Year of Admission, and Funding Level (Private/Public).
+- Institutional Details: School Name, Year of Admission, and Funding Level (Private/Public).
 
 
-💡 Recommendations based on Data
-Investigate Graduation Gap: With a 90%+ passing rate in classes but only a 31.9% graduation rate, the school should audit the final qualifying examinations to see where students are dropping off.
+<h2> 💡 Recommendations based on Data</h2> 
 
-Revenue Optimization: Given the very low student-to-teacher ratio (3.2), the school could potentially increase enrollment without hiring new staff to improve the Average Revenue Per Student.
+- Investigate Graduation Gap: With a 90%+ passing rate in classes but only a 31.9% graduation rate, the school should audit the final qualifying examinations to see where students are dropping off.
+
+- Revenue Optimization: Given the very low student-to-teacher ratio (3.2), the school could potentially increase enrollment without hiring new staff to improve the Average Revenue Per Student.
 
 
 <h1> 📊 Dashboard Page 2: Operational Efficiency & Student Engagement </h1> 
@@ -80,25 +81,25 @@ Page 2 shifts the focus from academic results to the environment in which learni
 <h2> 📈 Visualizations & Interpretation </h2>  
 1. <strong> Extracurricular Participation % by Class Level (Bar Chart): </strong> This chart tracks student involvement in non-academic activities.
 
-Peak Engagement: Senior Secondary 1 (SS1) leads with 30.46% participation.
+- Peak Engagement: Senior Secondary 1 (SS1) leads with 30.46% participation.
 
-Lowest Engagement: Senior Secondary 3 (SS3) shows the lowest participation at 25.86%.
+- Lowest Engagement: Senior Secondary 3 (SS3) shows the lowest participation at 25.86%.
 
-Interpretation: Participation tends to drop as students reach final examination years (SS3), likely due to increased focus on academic preparation.
+- Interpretation: Participation tends to drop as students reach final examination years (SS3), likely due to increased focus on academic preparation.
 
 2. <strong> Average Class Size Per Subject (Table): </strong> A breakdown of student density across different disciplines: 
 
-High Density: Science and Social Science subjects like Biology (64.7) and Economics (64.2) have the largest class sizes.
+- High Density: Science and Social Science subjects like Biology (64.7) and Economics (64.2) have the largest class sizes.
 
-Low Density: Core foundational subjects, such as Math (44.5) and Basic Science (44.4), have significantly smaller class sizes.
+- Low Density: Core foundational subjects, such as Math (44.5) and Basic Science (44.4), have significantly smaller class sizes.
 
-Insight: The school appears to prioritize smaller groups for core STEM subjects while allowing larger cohorts for electives.
+- Insight: The school appears to prioritize smaller groups for core STEM subjects while allowing larger cohorts for electives.
 
 3. <strong> Top Performance by Class Level (Table): </strong Displays the distribution of "Average Performing Students" across grade levels.
 
-Primary Levels: Performance is highest in Primary 2 (14%) and Primary 5/1 (13%).
+- Primary Levels: Performance is highest in Primary 2 (14%) and Primary 5/1 (13%).
 
-Secondary Levels: Performance dips in the Senior Secondary years, hovering around 11-12%.
+- Secondary Levels: Performance dips in the Senior Secondary years, hovering around 11-12%.
 
 <h2> 💡 Operational Recommendations </h2> 
 - Class Size Rebalancing: Subjects like Biology and Economics are significantly above the 55.5 average. To maintain quality, consider splitting these into multiple sections.
